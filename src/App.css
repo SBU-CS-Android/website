@@ -1,0 +1,59 @@
+#main-app {
+  background-color: #30dd83;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+#logo {
+  height: 17vw;
+  width: auto; }
+
+.main-link {
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  background-color: #383737;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1vw;
+  transition: 0.5s; }
+
+.main-link:hover {
+  background-color: rgba(255, 59, 59, 0.62); }
+
+.main-link:active {
+  transform: scale(0.7); }
+
+#main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 25vw; }
+
+#main-title {
+  font-size: 2.5vw;
+  background-color: white;
+  border-radius: 10px; }
+
+@media screen and (max-width: 900px) {
+  .main-link {
+    font-size: 4vw; }
+
+  #logo {
+    height: 55vw; }
+
+  #main-content {
+    height: 90vw; }
+
+  #main-title {
+    font-size: 6vw; } }
+* {
+  transition: 0.5s; }
+
+/*# sourceMappingURL=App.css.map */
