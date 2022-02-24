@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8fe57e;
+  background-color: #30dd83;
   height: 100vh;
   width: 100vw; }
 
@@ -18,5 +18,21 @@
 
 #session1 {
   background-color: #30dd83; }
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.video-iframe {
+  width: 90%;
+  border-radius: 5px;
+  height: 90%; }
+
+@media screen and (max-width: 900px) {
+  .ap-links {
+    font-size: 6vw; } }
 
 /*# sourceMappingURL=ap.css.map */

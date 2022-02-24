@@ -19,6 +19,14 @@ const Session1 = () => {
 
     fullPageOptions.slides = [
         <Slide>
+            <div className={'video'}>
+                <iframe className={'video-iframe'} src="https://www.youtube.com/embed/vQPdaib7kX8"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen/>
+            </div>
+        </Slide>,
+        <Slide>
             <div className={'page'}>
                 <img src={Page1} alt={''} className={'page'}/>
             </div>
